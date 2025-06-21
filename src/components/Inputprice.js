@@ -17,7 +17,7 @@ function InputPrice() {
         setLoading(true);
         axios.get(`${Baseurl}/app_getmaintypes/${id}`)
             .then(response => {
-                // console.log('Fetched maintype data:', response.data);
+                console.log('Fetched maintype data:', response.data);
                 // You can set state here if you want to use the data
                 setLoading(false);
                 setDataProducts(response.data);

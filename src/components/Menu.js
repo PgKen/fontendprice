@@ -19,8 +19,10 @@ const Menu = () => {
                 </p>
             </div>
             <nav className="flex flex-col gap-2">
-                <button className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-800 transition">
-                    <span className="material-icons">Home</span>
+                <button className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-800 transition"
+                    onClick={() => window.location.href = "/home"}
+                >
+                    <span className="material-icons">List Price</span>
                 </button>
                 <button
                     className="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-gray-800 transition"
